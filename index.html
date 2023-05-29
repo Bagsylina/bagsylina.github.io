@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CAT AUCTION</title>
+        <meta charset = "utf-8">
+        <meta name = "autor" content = "Anghel Fabian">
+        <meta name = "description" content = "Everything you need to know about Cats.">
+        <meta name = "keyword" content = "Cat, Kitten, COMP, Summon">
+
+        <link rel="stylesheet" href="CatAuction-style.css" type="text/css">
+        <script type="text/javascript" src="CatAuction.js"></script>
+    </head>
+    <body>
+        <header> 
+            <h1><a href="CatAuction.html">Cat Auction</a></h1>
+            <nav>
+                <a href="CatForm.html">Add a cat</a>
+                <a href="CatGame.html">Play a game!!!</a>
+            </nav>
+            <p id="date"></p>
+            <form>
+                <p>
+                    <label for="species_search">Species:</label>
+                    <select id="species_search" name="species_search">
+                        <option>All</option>
+                        <option>Special species</option>
+                        <option>Goober</option>
+                        <option>Ringo</option>
+                        <option>Milly</option>
+                        <option>Deep Sea Creature</option>
+                        <option>Demencat</option>
+                        <option>Win</option>
+                        <option>Boing</option>
+                        <option>Horseman</option>
+                        <option>Danger</option>
+                        <option>The Walker</option>
+                        <option>Sillier</option>
+                        <option>Birthdayboy</option>
+                        <option>Eepy</option>
+                        <option>Zazaray</option>
+                        <option>Salami</option>
+                        <option>Peanut</option>
+                        <option>Melon</option>
+                        <option>Azia</option>
+                        <option>Gandalf</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="breed_search">Breed:</label>
+                    <select id="breed_search" name="breed_search">
+                        <option>All</option>
+                        <option>Medium hair</option>
+                        <option>Shorthair</option>
+                        <option>Long Hair</option>
+                        <option>Maine Coon</option>
+                        <option>Ragdoll</option>
+                        <option>Munchkin</option>
+                        <option>Bobtail</option>
+                        <option>Scottish Fold</option>
+                        <option>Persian</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="fur_search">Fur color:</label>
+                    <select id="fur_search" name="fur_search">
+                        <option>All</option>
+                        <option>Tabby</option>
+                        <option>Orange</option>
+                        <option>Black</option>
+                        <option>Gray</option>
+                        <option>White</option>
+                        <option>Calico</option>
+                        <option>Tuxedo</option>
+                        <option>Siamese</option>
+                        <option>Tortoiseshell</option>
+                        <option>Russian Blue</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="age_search">Age:</label>
+                    <select id="age_search" name="age_search">
+                        <option>All</option>
+                        <option><1 year</option>
+                        <option>1-3 years</option>
+                        <option>4-6 years</option>
+                        <option>>6 years</option>
+                    </select>
+                </p>
+            </form>
+        </header>
+        <main>
+            <div id="entrycontainer">
+                
+            </div>
+            <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+              
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+              
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+              </div>
+        </main>
+    </body>
+</html>

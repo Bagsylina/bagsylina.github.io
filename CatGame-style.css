@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+  font-family: "CatFont";
+  src: url("meows-vgwjy-webfont.woff") format("woff"),
+  url("meows-vgwjy-webfont.woff2") format("woff2");
+  }
+
+header h1{
+    text-align: center;
+    font-family: 'CatFont';
+    font-size: 60px;
+    font-weight: normal;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 200px 100px;
+   }
+}
+
+body {
+    text-align: center;
+    background: url("cat-sprites.jpg") repeat 0 0;
+    background-size: 200px 100px;
+    animation: bg-scrolling-reverse 3s infinite;
+    animation-timing-function: linear;
+}
+body::before {
+    font-size: 8rem;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#container {
+    /*width: 2000px;*/
+    height: fit-content;
+    color: black;
+    display: flex;
+    column-count: 3;
+    flex-wrap: wrap;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    border-color: black;
+    border: 2px;
+}
+
+.mazecell{
+    transition: transform;
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+}
+
+.score{
+    font-family: 'CatFont';
+    font-size: 40px;
+}
+
+.score{
+    font-family: 'CatFont';
+    font-size: 40px;
+}
+
+.time{
+    font-family: 'CatFont';
+    font-size: 40px;
+}
+
+.sprite{
+    font-size: 40px;
+}
