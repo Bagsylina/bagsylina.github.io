@@ -1,6 +1,6 @@
 function kickout(){
     alert("You took too long filling out this form!");
-    window.location.replace("CatAuction.html");
+    window.location.replace("index.html");
 }
 
 function getData(){
